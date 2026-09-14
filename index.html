@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seven Stripes</title>
+<style>
+  :root { --cream: #F2E9D8; --cream-light: #FBF4E4; --ink: #1F6B33; --text: #23301f; --muted: #5c6b57; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--cream); color: var(--text);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; }
+  .stripes { display: flex; height: 10px; }
+  .stripes i { flex: 1; }
+  .wrap { max-width: 640px; margin: 0 auto; padding: 40px 22px 64px; text-align: center; }
+  h1 { font-size: 30px; margin: 20px 0 6px; color: var(--ink); }
+  .sub { color: var(--muted); margin: 0 0 30px; }
+  main { background: var(--cream-light); border-radius: 18px; padding: 24px 24px 28px; text-align: left; }
+  h2 { font-size: 20px; color: var(--ink); margin: 4px 0 8px; }
+  p { margin: 8px 0; }
+  a { color: var(--ink); }
+  footer { color: var(--muted); font-size: 14px; margin-top: 28px; }
+  @media (prefers-color-scheme: dark) {
+    :root { --cream: #16201a; --cream-light: #1e2b22; --text: #e8efe6; --muted: #9db09a; --ink: #7FC06B; }
+  }
+</style>
+</head>
+<body>
+<div class="stripes" aria-hidden="true">
+  <i style="background:#379B44"></i><i style="background:#C22E2A"></i><i style="background:#E8C23C"></i><i style="background:#7FC06B"></i><i style="background:#E07B2A"></i><i style="background:#F2E9D8"></i><i style="background:#1F6B33"></i>
+</div>
+<div class="wrap">
+  <h1>Seven Stripes</h1>
+  <p class="sub">Gry mobilne &nbsp;·&nbsp; Mobile games</p>
+  <main>
+    <h2>Bubble Stripes</h2>
+    <p>Kulki, kolory i prawdziwe polskie miejsca. / Bubbles, colours and real places in Poland.</p>
+    <p><a href="https://seven-stripes.github.io/bubble-stripes/">Polityka prywatności &nbsp;·&nbsp; Privacy policy</a></p>
+  </main>
+  <footer>Kontakt / Contact: <a href="mailto:sevenstripesgames@gmail.com">sevenstripesgames@gmail.com</a></footer>
+</div>
+</body>
+</html>
