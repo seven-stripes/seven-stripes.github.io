@@ -3,7 +3,38 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Seven Stripes</title>
+<title>Seven Stripes – małe studio gier z Polski</title>
+<meta name="description" content="Seven Stripes to małe studio gier z Polski. Robimy lekkie gry na telefon z polskim charakterem.">
+<link rel="canonical" href="https://seven-stripes.github.io/">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon-180.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Seven Stripes">
+<meta property="og:url" content="https://seven-stripes.github.io/">
+<meta property="og:title" content="Seven Stripes – małe studio gier z Polski">
+<meta property="og:description" content="Robimy lekkie gry na telefon z polskim charakterem.">
+<meta property="og:image" content="https://seven-stripes.github.io/img/podglad-linku-1200x630.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Znak Seven Stripes i kogut wśród kolorowych kulek na tle polskiej wsi">
+<meta property="og:locale" content="pl_PL">
+<meta property="og:locale:alternate" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://seven-stripes.github.io/#studio",
+  "name": "Seven Stripes",
+  "url": "https://seven-stripes.github.io/",
+  "logo": "https://seven-stripes.github.io/img/apple-touch-icon-180.png",
+  "email": "sevenstripesgames@gmail.com",
+  "sameAs": [
+    "https://www.youtube.com/@sevenstripesgames",
+    "https://play.google.com/store/apps/developer?id=Seven+Stripes"
+  ]
+}
+</script>
 <style>
   :root { --cream: #F2E9D8; --cream-light: #FBF4E4; --ink: #1F6B33; --text: #23301f; --muted: #5c6b57; }
   * { box-sizing: border-box; }
@@ -11,14 +42,29 @@
     font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; }
   .stripes { display: flex; height: 10px; }
   .stripes i { flex: 1; }
-  .wrap { max-width: 640px; margin: 0 auto; padding: 40px 22px 64px; text-align: center; }
-  h1 { font-size: 30px; margin: 20px 0 6px; color: var(--ink); }
-  .sub { color: var(--muted); margin: 0 0 30px; }
-  main { background: var(--cream-light); border-radius: 18px; padding: 24px 24px 28px; text-align: left; }
-  h2 { font-size: 20px; color: var(--ink); margin: 4px 0 8px; }
-  p { margin: 8px 0; }
+  .wrap { max-width: 640px; margin: 0 auto; padding: 36px 22px 56px; text-align: center; }
+  h1 { margin: 12px 0 10px; line-height: 0; }
+  h1 img { width: 260px; max-width: 80%; height: auto; }
+  .sub { color: var(--muted); margin: 0 0 28px; }
+  .sub span { display: block; font-size: 15px; }
+  .games { font-size: 15px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); margin: 0 0 10px; }
+  main { background: var(--cream-light); border-radius: 18px; padding: 24px 24px 22px; text-align: left; }
+  .game { display: flex; gap: 18px; align-items: flex-start; }
+  .game .icon { width: 96px; height: 96px; border-radius: 22px; flex: none; }
+  h3 { font-size: 22px; color: var(--ink); margin: 0 0 6px; }
+  h3 a { text-decoration: none; }
+  p { margin: 6px 0; }
+  .en { color: var(--muted); font-size: 15px; }
+  .get { text-align: center; margin: 20px 0 4px; }
+  .get img { height: 56px; width: auto; }
+  .links { text-align: center; font-size: 15px; margin-top: 10px; }
   a { color: var(--ink); }
   footer { color: var(--muted); font-size: 14px; margin-top: 28px; }
+  footer p { margin: 4px 0; }
+  .legal { font-size: 12px; }
+  @media (max-width: 420px) {
+    .game { flex-direction: column; align-items: center; text-align: center; }
+  }
   @media (prefers-color-scheme: dark) {
     :root { --cream: #16201a; --cream-light: #1e2b22; --text: #e8efe6; --muted: #9db09a; --ink: #7FC06B; }
   }
@@ -29,14 +75,28 @@
   <i style="background:#379B44"></i><i style="background:#C22E2A"></i><i style="background:#E8C23C"></i><i style="background:#7FC06B"></i><i style="background:#E07B2A"></i><i style="background:#F2E9D8"></i><i style="background:#1F6B33"></i>
 </div>
 <div class="wrap">
-  <h1>Seven Stripes</h1>
-  <p class="sub">Gry mobilne &nbsp;·&nbsp; Mobile games</p>
+  <h1><img src="img/logo-7s.png" width="520" height="202" alt="Seven Stripes"></h1>
+  <p class="sub">Małe studio gier z Polski. Robimy lekkie gry na telefon z polskim charakterem.
+    <span lang="en">A small game studio from Poland. We make light mobile games with a Polish touch.</span></p>
+  <h2 class="games">Nasze gry · Our games</h2>
   <main>
-    <h2>Bubble Stripes</h2>
-    <p>Kulki, kolory i prawdziwe polskie miejsca. / Bubbles, colours and real places in Poland.</p>
-    <p><a href="https://seven-stripes.github.io/bubble-stripes/">Polityka prywatności &nbsp;·&nbsp; Privacy policy</a></p>
+    <div class="game">
+      <a href="gry/bubble-stripes/"><img class="icon" src="img/bubble-stripes-192.png" width="192" height="192" alt="Ikona gry Bubble Stripes"></a>
+      <div>
+        <h3><a href="gry/bubble-stripes/">Bubble Stripes</a></h3>
+        <p>Zbijaj kolorowe kulki i odkrywaj ponad sto prawdziwych miejsc Polski. Darmowa gra, działa bez internetu.</p>
+        <p class="en" lang="en">Pop colourful bubbles and discover over a hundred real places in Poland. A free game that works offline.</p>
+      </div>
+    </div>
+    <p class="get"><a href="https://play.google.com/store/apps/details?id=com.sevenstripes.bubblestripes&amp;referrer=utm_source%3Dstrona_studia%26utm_campaign%3Dstrona_glowna"><img src="img/google-play-pl.png" width="646" height="192" alt="Pobierz z Google Play"></a></p>
+    <p class="links"><a href="gry/bubble-stripes/">Więcej o grze &nbsp;·&nbsp; More about the game</a></p>
+    <p class="links"><a href="https://seven-stripes.github.io/bubble-stripes/">Polityka prywatności &nbsp;·&nbsp; Privacy policy</a></p>
   </main>
-  <footer>Kontakt / Contact: <a href="mailto:sevenstripesgames@gmail.com">sevenstripesgames@gmail.com</a></footer>
+  <footer>
+    <p>Kontakt / Contact: <a href="mailto:sevenstripesgames@gmail.com">sevenstripesgames@gmail.com</a></p>
+    <p class="legal">Google Play i logo Google Play są znakami towarowymi Google LLC.</p>
+    <p class="legal">© 2026 Seven Stripes</p>
+  </footer>
 </div>
 </body>
 </html>

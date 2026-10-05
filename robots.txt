@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://seven-stripes.github.io/sitemap.xml
