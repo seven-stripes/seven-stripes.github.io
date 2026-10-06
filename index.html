@@ -6,6 +6,7 @@
 <title>Seven Stripes – małe studio gier z Polski</title>
 <meta name="description" content="Seven Stripes to małe studio gier z Polski. Robimy lekkie gry na telefon z polskim charakterem.">
 <link rel="canonical" href="https://seven-stripes.github.io/">
+<link rel="icon" type="image/png" sizes="192x192" href="img/favicon-192.png">
 <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
 <link rel="apple-touch-icon" href="img/apple-touch-icon-180.png">
 <meta property="og:type" content="website">
@@ -23,15 +24,38 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  "@id": "https://seven-stripes.github.io/#studio",
-  "name": "Seven Stripes",
-  "url": "https://seven-stripes.github.io/",
-  "logo": "https://seven-stripes.github.io/img/apple-touch-icon-180.png",
-  "email": "sevenstripesgames@gmail.com",
-  "sameAs": [
-    "https://www.youtube.com/@sevenstripesgames",
-    "https://play.google.com/store/apps/developer?id=Seven+Stripes"
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://seven-stripes.github.io/#studio",
+      "name": "Seven Stripes",
+      "alternateName": "Seven Stripes Games",
+      "url": "https://seven-stripes.github.io/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://seven-stripes.github.io/img/logo-7s-512.png",
+        "width": 512,
+        "height": 512
+      },
+      "image": "https://seven-stripes.github.io/img/podglad-linku-1200x630.jpg",
+      "description": "Seven Stripes to małe studio gier z Polski. Robimy lekkie gry na telefon z polskim charakterem. A small game studio from Poland making light mobile games with a Polish touch.",
+      "email": "sevenstripesgames@gmail.com",
+      "sameAs": [
+        "https://www.youtube.com/@sevenstripesgames",
+        "https://www.facebook.com/sevenstripesgames",
+        "https://play.google.com/store/apps/dev?id=4953224340548554036",
+        "https://github.com/seven-stripes"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://seven-stripes.github.io/#site",
+      "name": "Seven Stripes",
+      "alternateName": "Seven Stripes Games",
+      "url": "https://seven-stripes.github.io/",
+      "inLanguage": ["pl", "en"],
+      "publisher": { "@id": "https://seven-stripes.github.io/#studio" }
+    }
   ]
 }
 </script>
@@ -93,6 +117,7 @@
     <p class="links"><a href="https://seven-stripes.github.io/bubble-stripes/">Polityka prywatności &nbsp;·&nbsp; Privacy policy</a></p>
   </main>
   <footer>
+    <p>Obserwuj nas · Follow us: <a href="https://www.youtube.com/@sevenstripesgames">YouTube</a> &nbsp;·&nbsp; <a href="https://www.facebook.com/sevenstripesgames">Facebook</a></p>
     <p>Kontakt / Contact: <a href="mailto:sevenstripesgames@gmail.com">sevenstripesgames@gmail.com</a></p>
     <p class="legal">Google Play i logo Google Play są znakami towarowymi Google LLC.</p>
     <p class="legal">© 2026 Seven Stripes</p>
